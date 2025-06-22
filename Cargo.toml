@@ -1,0 +1,12 @@
+[package]
+name = "solyanka"
+version = "0.1.0"
+authors = ["Andrey Lesnikov <ozkriff@gmail.com>"]
+edition = "2024"
+description = "A WIP prototype for wasm+ecs shared-memory plugin system for games."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/ozkriff/solyanka"
+readme = "README.md"
+
+[dependencies]
+wasmtime = "34.0"
